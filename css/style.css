@@ -49,7 +49,7 @@ header{
 
 .header-div{
   max-width: 1400px;
-  padding: 0 10%;
+  padding: 0 5%;
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
@@ -67,7 +67,7 @@ header{
   color:#fff;
   padding: 5px 30px;
   font-size: 1.25rem;
-  transition: .3 ease-in-out;
+  transition: 0.3 ease-in-out;
   border-right: 1px solid #ffa801;
 }
 
@@ -91,4 +91,72 @@ header{
 .header-image img{
   width: 100%;
 
+}
+
+/*--------------------------
+         Artist Text proberties
+--------------------------*/
+
+.artist-text{
+  display: flex;
+  max-width: 1400px;
+  margin: 3rem auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5% 2rem;
+  border-bottom: 2px solid #777;
+}
+
+.artist{
+  width: 20%;
+  margin-right: 3rem;
+}
+
+.artist-name{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.shape{
+  width: 1rem;
+  height: 2rem;
+  background-color: #ffa801;
+  margin-right: 2rem;
+  position: relative;
+}
+
+.shape:before{
+  content: "";
+  position: absolute;
+  right: -16px;
+  border: 0;
+  width: 0;
+  height: 0;
+  border-left: 1rem solid #ffa801;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+}
+
+.artist-name h3{
+  font-family: "Reef";
+  font-size: 1.5rem;
+  color: #1e272e;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.artist p{
+  margin-bottom: .5rem;
+}
+
+
+.artist a{
+  font-size: 1rem;
+  color: #ffa801;
+  transition: all 0.3s ease;
+}
+
+.artist a:hover{
+  color: #1e272e;
 }
