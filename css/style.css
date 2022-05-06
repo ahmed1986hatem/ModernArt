@@ -202,3 +202,44 @@ header{
 .artist-work a:hover{
   color: #1e272e;
 }
+
+/*------------------------------------
+         Footer proberties
+------------------------------------*/
+footer{
+  background-color: #1e272e;
+  color: #fff;
+
+}
+
+footer div{
+  max-width: 1400px;
+  padding: 0 5%;
+}
+
+footer div p{
+  font-size: 1.25rem;
+  padding: 1.25rem 0;
+}
+
+/*------------------------------------
+         Back to Top proberties
+------------------------------------*/
+
+.top{
+  position: fixed;
+  right: 1%;
+  bottom: 15%;
+  background-color: #ffa801;
+  text-shadow: 2px 2px 1px #777;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+  transition: all .3s linear;
+  letter-spacing: 1.5;
+}
+
+.top:hover{
+  background-color: #1e272e;
+  border-radius: 50%;
+}
